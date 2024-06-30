@@ -163,6 +163,12 @@ nav a {
   margin-left: 20px;
 }
 
+nav a:last-child {
+  margin-right: 0;
+  margin-left: 55px;
+  background-color: ;
+}
+
 .active {
   color: #6e4dfe;
 }
@@ -179,14 +185,24 @@ nav a {
   font-weight: 500;
 }
 
-.text-weight-bold {
+.text-weight-bolder {
   font-weight: 900;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 0;
 }
-nav {
-  
+
+.flat-btn {
+  background-color: #fec447;
+  padding: 20px 30px;
+  border-radius: 15px;
+
+}
+
+body {
+  padding: 0 180px;
 }
